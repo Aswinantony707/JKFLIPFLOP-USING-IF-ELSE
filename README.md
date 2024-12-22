@@ -1,6 +1,6 @@
-### NAME:S.ASWIN ANTONY
-### REG NO:24001423
-## EX NO:5-JK FLIP-FLOP
+# NAME:S.ASWIN ANTONY
+# REGNO:24001423
+# EXPNO 5:JK_flipflop
 
 # AIM: 
 
@@ -34,22 +34,24 @@ By using three variable K-Map, we can get the simplified expression for next sta
 
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=JQ(t)′+K′Q(t)Q(t+1)=JQ(t)′+K′Q(t)
 
-# Procedure:
+# Procedure
+Implementing JK_flipflop in Verilog HDL (Hardware Description Language) involves translating the simplified Boolean expressions into Verilog code to describe the behavior of digital circuits. The basic building blocks in Verilog is module. The module represent a combinational circuit. Use logical operators (&, |, ~, ^) to implement Boolean functions directly. Use built-in gate primitives for basic functions. Use University program VWF to verify the functionality of your Verilog modules. Create waveform and check outputs against expected results.
 
 /* write all the steps invloved */
 
-# PROGRAM:
-![Screenshot 2024-12-09 110143](https://github.com/user-attachments/assets/f075727c-9c00-4f49-860f-30b7b65dce5b)
+# PROGRAM
+![Screenshot 2024-11-28 144846](https://github.com/user-attachments/assets/1323e7da-09da-49d1-a9a6-de1e7f9e1a67)
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
 */
 
-# RTL LOGIC FOR FLIPFLOPS:
-![Screenshot 2024-12-09 103738](https://github.com/user-attachments/assets/f6a810ee-e180-4e7c-859e-11cc116f748f)
+# RTL LOGIC FOR FLIPFLOPS
+![Screenshot 2024-11-28 144815](https://github.com/user-attachments/assets/24a47193-2c3c-4e97-925a-66a38fd7981e)
 
-# TIMING DIGRAMS FOR FLIP FLOPS:
-![Screenshot 2024-12-09 105721](https://github.com/user-attachments/assets/a1119f3b-fe21-4f38-89aa-4c25247595c7)
 
-# RESULTS:
-implement  JK flipflop using verilog and validating their functionality using their functional tables
+# TIMING DIGRAMS FOR FLIP FLOPS
+![Screenshot 2024-12-09 103648](https://github.com/user-attachments/assets/131419c6-0d67-4ce8-8c11-e0900538d803)
 
+
+# RESULTS
+Implemented  JK flipflop using verilog and validating their functionality using their functional tables
